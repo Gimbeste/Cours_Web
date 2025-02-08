@@ -51,7 +51,7 @@ Ce document décrit les exigences pour la réalisation d'un site vitrine profess
 - Optimisation SEO (balises méta, structured data, etc.).
 - Performances optimisées (lazy loading, cache, minification des ressources).
 - Hébergement sur un serveur sécurisé (HTTPS obligatoire).
-- Développement avec une stack moderne (HTML, CSS, JavaScript, framework front-end et back-end selon préférences).
+- Développement avec HTML5, CSS3 et JavaScript.
 
 ## 6. User Stories et cas d’acceptation
 ### 6.1 Consultation du portfolio
