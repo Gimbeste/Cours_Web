@@ -1,0 +1,14 @@
+@startuml
+
+actor "Visiteur" as Visiteur
+
+usecase "Consulter le portfolio" as ConsulterPortfolio
+usecase "Rediriger vers un projet" as VoirProjet
+usecase "Contacter le propriétaire" as EnvoyerMessage
+
+Visiteur --> ConsulterPortfolio
+Visiteur --> VoirProjet
+Visiteur --> EnvoyerMessage
+
+
+@enduml
