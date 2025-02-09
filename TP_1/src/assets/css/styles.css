@@ -25,6 +25,14 @@ nav{
     margin: 0 auto;
 }
 
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #2db80c;
+}
+
 #logo{
     display: flex;
     align-items: center;
@@ -78,4 +86,108 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 70%;
+}
+
+.competences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2db80c;
+    height: 20vh;
+}
+
+.competences-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.competences-list li {
+    display: flex;
+    flex-direction: column; /* Dispose les éléments en colonne (image + texte) */
+    align-items: center; /* Centre les éléments horizontalement */
+    text-align: center; /* Centrer le texte */
+}
+
+.competences-list span {
+    font-size: 1.5rem; /* Ajuste la taille du texte */
+    color: #e5e5e5; /* Couleur du texte */
+}
+
+
+.projets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae5ca;
+    color: #000;
+    padding: 50px 0;
+    width: 100%;
+    height: 20vh;
+}
+
+.projets-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.projets-list a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.projets-list a:hover {
+    color: #005bb5;
+}
+
+
+.cpp-icon{
+    height: 10vh;
+    width: 10vh;
+}
+
+.python-icon{
+    height: 10vh;
+    width: 10vh;
+}
+
+.html-icon{
+    height: 10vh;
+    width: 10vh;
+}
+
+.godot-icon{
+    height: 10vh;
+    width: 10vh;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2db80c;
+    color: #000;
+    padding: 50px 0;
+    width: 100%;
+    height: 20vh;
+}
+
+.contact-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
 }
