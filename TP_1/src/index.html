@@ -12,6 +12,9 @@
 <body>
     <header class="header">
         <nav>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </div>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="#presentation">A propos</a></li>
@@ -25,19 +28,34 @@
 
     <section class="hero-section" id="presentation">
         <figure class="hero-pic">
-            <img src="assets/img/Photo.JPG">
+            <img src="assets/img/Design_sans_titre-removebg-preview.png">
         </figure>
 
         <article class="hero-text">
-            <h1>Salut, je suis Gabriel Gimenez</h1>
+            <h1>Gabriel Gimenez</h1>
             <br>
-            <p>Je suis un développeur web junior</p>
+            <p>Développeur polyvalent</p>
             <br>
-            <a href="a.html" class="cta">En savoir plus</a>
         
     </section>
 
-    <h2>Mes compétences</h2>
+    <h2 class="description-title">A propos de moi</h2>
+    <section class="description" id="description">
+        <!-- <figure class="hero-pic">
+            <img src="assets/img/Photo.JPG">
+        </figure> -->
+
+        <article class="description-text">
+            <h1>Gabriel Gimenez, pour vous servir !</h1>
+            <br>
+            <p>Je suis actuellement étudiant à l'ESIEA, je m'intéresse à la programmation et à la cybersécurité. Je suis ouvert à collaborer
+                sur des projets intéressants, notamment de développement d'applications. Je suis également passionné par le développement de jeux.
+            </p>
+            <br>
+        
+    </section>
+
+    <h2 class="competences-title">Mes compétences</h2>
     <section class="competences" id="competences">
         <ul class="competences-list">
             <li>
@@ -60,6 +78,8 @@
 
     </section>
 
+
+    <h2 class="projets-title">Mes projets</h2>
     <section class="projets" id="projets">
         <ul class="projets-list">
             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Fangame Pokemon</a></li>
@@ -68,23 +88,42 @@
         </ul>
     </section>
 
+    <h2 class="contact-title">Contactez moi via mes réseaux ou avec ce formulaire :</h2>
     <section class="contact" id="contact">
         <ul class="contact-list">
-            <li>
+            <li class="github">
                 <a href="https://github.com/Gimbeste">
                     <img src="assets/img/github-mark.svg" alt="github">
                 </a>
+                <p>Github</p>
             </li>
-            <li>
+            <li class="linkedin">
                 <a href="https://www.linkedin.com/in/gabriel-gimenez-6246b2253/">
                     <img src="assets/img/LinkedIn_icon.svg" alt="linkedin">
                 </a>
+                <p>LinkedIn</p>
             </li>
         </ul>
     </section>
     
+
+    <br>
+    <form action="/" method="post">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+
+    </form>
+
     <footer>
-        <p>Le footer il a changé</p>
+        <p>© 2025 Gabriel Gimenez</p>
     </footer>
 </main>
 
