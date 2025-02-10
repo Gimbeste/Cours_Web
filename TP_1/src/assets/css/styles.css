@@ -17,6 +17,12 @@ body{
     justify-content: space-between;
     height: 5rem;
     background-color: #161616;
+    position: fixed;
+    width: 100%;
+}
+
+.space{
+    padding: 2rem;  
 }
 
 .logo img {
@@ -34,6 +40,7 @@ nav{
 }
 
 .hero-section{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
