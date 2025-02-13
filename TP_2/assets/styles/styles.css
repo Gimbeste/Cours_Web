@@ -25,3 +25,13 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+.btn:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Ombre lors du survol */
+  }
+  
+.btn:active {
+    transform: scale(0.98);  /* Effet de réduction lors du clic */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Ombre plus petite lors du clic */
+    transition: transform 0.1s ease, box-shadow 0.1s ease;  /* Animation douce */
+}
